@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+font-family: 'Roboto', sans-serif;
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    background-color: #322e41;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_list{
+    display: flex;
+    list-style: none;
+}
+.header_list a{
+    padding: 23px 14px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    transition: 0,5s;
+}
+
+.header_list a:hover{
+    background: white;
+    color: #d47300;
+    
+}
+.intro{
+   background: url(../img/Nike-Adapt-BB\ 1.jpg) center/cover;
+   height: 500px;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   
+}
+.intro h1{
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+}
+
+.intro p{
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+
+}
+.intro span{
+    font-weight: 700;
+}
+main{
+    background: #eddfed;
+    padding-bottom: 20px;
+}
+
+.left{
+    width: 540px;
+    background: white;
+    border-radius: 6px;
+    padding: 15px;
+
+}
+.left img{
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.left h2{
+    color: #2c2a2a;
+    font-size: 22px;
+    
+}
+.left p{
+    font-size: 16px;
+    color: #989998;
+
+}
+.catalog{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -40px;
+}
+.iteam_right{
+    background: white;
+    width: 255px;
+    border-radius: 6px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.iteam_right img{
+    display: flex;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    border: 2px solid white;
+    border-radius: 50px;
+    
+}
+.iteam_right h4{
+    font-size: 22px;
+    color: #2c2a2a;
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 10px;
+
+}
+.iteam_right p{
+    font-size: 16px;
+    text-align: center;
+    color: #2c2a2a;
+    line-height: 16px;
+}
+.right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 540px;
+}
+footer{
+    background: #322E41;
+    padding:47px 0;
+}
+.footer-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    width: 100%;
+
+}
+.footer-form input{
+    background: #ffffff;
+    border-radius: 6px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+}
+.footer-form textarea{
+    background: #f0f0f3;
+    border-radius: 6px;
+    padding: 8px;
+    margin-bottom: 11px;
+    border: none;
+    outline: none;
+    height: 86px;
+    resize: none;
+}
+.footer-form button{
+    background: #544294;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+.footer-form textarea::placeholder,.footer-form textarea::placeholder{  
+  font-weight: 400;
+  font-size: 18px;
+ }
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+footer nav{
+    display: flex;
+    justify-content:space-between ;
+    width: 100%;
+    max-width: 250px;
+    
+
+}
+.footer_list{
+    list-style: none;
+}
+.footer_list a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+    display: block;
+    transition: 1s;
+
+}
+.footer_list a:hover{
+    color: #D47300;
+
+}
